@@ -7,7 +7,7 @@
 
 .frame1Font {
     font-weight: 600;
-    size: 16px;
+    size: 14px;
     line-height: 22.4px;
     color: #111111;
     margin-top: 16px;
@@ -15,24 +15,18 @@
 }
 
 .joinNowButton {
-    width: 209px;
-    height: 50px;
     border-radius: 100px;
     border: 2px solid #1b90dd;
-    padding: 20px, 40px, 20px, 40px;
-    margin: 10px;
+    padding: 10px, 20px, 10px, 20px;
     background-color: white;
 }
 
 .text {
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 450;
+    font-weight: 400;
     margin-top: 5px;
-    max-width: 65ch;
-    font-size: 11px;
-    height: 38px;
-    font-family: 'Nunito Sans', sans-serif;
-    line-height: 18px;
+    max-width: 63ch;
+    font-size: 12px;
+    line-height: 20px;
     color: #111111;
 }
 
@@ -51,9 +45,9 @@ section{
 .heading1 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 600;
-    font-size: 46px;
+    font-size: 38px;
     margin-top: 90px;
-    line-height: 61.6px;
+    line-height: 39.6px;
     letter-spacing: -2px;
     color: #0e2f53;
 }
@@ -63,14 +57,14 @@ section{
     border: 1px solid white;
     border-radius: 5px;
     padding: 7px;
-    max-width: 84%;
+    max-width: 88%;
     width: auto;
     text-align: center;
     color: white;
     font-weight: 600;
-    line-height: 61.6px;
+    line-height: 39.6px;
     letter-spacing: -2px;
-    font-size: 44px;
+    font-size: 36px;
 }
 
 .frame4ButtonBox {
@@ -93,7 +87,7 @@ section{
 }
 
 .image1 {
-    max-width: 87%;
+    max-width: 97%;
     border-radius: 12px;
     margin-top: 20px;
 }
@@ -136,6 +130,10 @@ h3 {
     text-align: center;
 }
 
+.exploreJobsWimg{
+    margin-top: 60px;
+}
+
 .png {
     width: auto;
     height: 20px;
@@ -167,8 +165,10 @@ h3 {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 32px;
     font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
     line-height: 48px;
-    letter-spacing: -2%;
+    letter-spacing: -2px;
 }
 
 ul{
@@ -203,14 +203,14 @@ ul{
     color: red;
 }
 
+.rectangle6{
+    position: relative;
+}
+
 .rectangle22{
     margin-top: 64px;
     text-align: center;
     margin-bottom: 50px;
-}
-
-.rectangle22Items{
-    text-align: center;
 }
 
 .rectangle22Text{
@@ -289,6 +289,7 @@ h5{
 }
 .accordion-button{
     background-color: #0e2f53;
+    box-shadow: none;
 }
 .accordionHeading{
     font-size: 20px;
@@ -305,6 +306,15 @@ h5{
 }
 .accordion-button:not(.collapsed)::after{
     background-image: url("../img/minus.png");
+    margin-top: -12px;
+}
+
+.fAccordion-button{
+    box-shadow: none;
+}
+
+.fAccordion-button.accordion-button:not(.collapsed){
+    box-shadow: none;
 }
 
 .fAccordion-button::after{
@@ -343,20 +353,20 @@ h5{
 .frame73{
     background-color: #0e2f53;
     border-radius: 12px;
-    padding: 46px 60px 46px 60px;
+    padding: 23px 30px 23px 30px;
     left: 200px;
     top: 5687px;
 }
 .frame73Heading{
-    font-size: 21px;
+    font-size: 23px;
     font-weight: 600;
-    line-height: 41.6px;
+    line-height: 30.6px;
     color: white;
 }
 .frame73Text{
-    font-weight: 450;
+    font-weight: 400;
     font-size: 12px;
-    line-height: 28.8px;
+    line-height: 23.8px;
     color: white;
 }
 .owl-carousel{
@@ -462,16 +472,17 @@ h5{
 }
 .rectangle18Heading{
     font-weight: 700;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 28px;
-    align-self: center;
 }
 .rectangle18Text{
     font-weight: 400;
-    font-size: 16px;
-    line-height: 25.6px;
+    font-size: 14px;
+    line-height: 20.6px;
     color: #00000080;
-    ;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 12px;
 }
 .ellipse{
     width: 90px;
@@ -710,6 +721,7 @@ input.inputField{
     font-size: 16px;
     font-weight: 800;
     line-height: 25.6px;
+    color: white;
     border: 1px solid white;
     border-radius: 8px;
 }
@@ -728,16 +740,17 @@ input.inputField{
 }
 .frame108{
     font-weight: 600;
-    font-size: 32px ;
-    line-height: 41.6px;
+    font-size: 27px ;
+    line-height: 34.6px;
     color: white;
 }
 .frame109Text{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 28.8px;
     color: #ffffff;
     opacity: 70%;
+    margin-top: -35px;
 }
 .frame109{
     position: relative;
@@ -754,8 +767,6 @@ input.inputField{
     color: #ffffff;
     text-decoration: none;
     position: absolute;
-    bottom: -86px;
-    left: 0px;
 }
 .footerBgImg{
     position: absolute;
@@ -833,7 +844,7 @@ a:active{
 .joinNowAnchor{
     border: 2px solid #1b90dd;
     background-color: transparent;
-    padding: 10px 40px 10px 40px;
+    padding: 10px 20px 10px 20px;
     border-radius: 100px;
     text-decoration: none;
     font-weight: 600;
@@ -874,7 +885,8 @@ a:active{
     width: fit-content;
 }
 .frame22Special{
-    border:none
+    border:none;
+    padding: 0px;
 }
 
 .accodionHeading{
@@ -934,14 +946,14 @@ body{
 }
 
 .textContainer{
-    width: 820px;
     font-weight: 400;
     font-size: 16px;
     color: #111111B2;
     text-align: center;
-    line-height: 28.8px;
+    line-height: 22.8px;
     margin-left: 200px;
     margin-right: 200px;
+    margin-top: -40px;
 }
 
 .overlaySection{
@@ -1047,8 +1059,9 @@ p{
 
 .group70Image{
     position: absolute;
-    bottom: 0px;
+    bottom: -64px;
     right: 0px;
+    max-width: 19%;
 }
 #frame73Col{
     justify-content: right;
@@ -1125,4 +1138,60 @@ p{
 .owl-carousel .item{
     display: flex !important; 
     justify-content: center !important;
+}
+.tabs {
+    border-radius: 5px 5px 5px 5px;
+}
+
+ul#tabs-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+ul#tabs-nav li {
+    float: left;
+    font-weight: bold;
+    margin-right: 2px;
+    padding: 8px 10px;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+
+ul#tabs-nav a:hover{
+    border-color: #1b90dd;
+    color: #1b90dd;
+}
+
+#tabs-nav li.active a{
+    border-color: #1b90dd;
+    color: #1b90dd;
+}
+#tabs-nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.tab-content {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-anchor {
+    border: 1px dashed black;
+    background-color: white;
+    padding: 5px 10px;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 2px;
+    line-height: 27.2px;
+}
+
+.frame169{
+    margin-top: 50px;
+    display: flex;
 }
