@@ -29,7 +29,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand col-lg-5" href="#">
-          <img src="./img/Group1.png" alt="websiteIcon" />
+          <img class="websiteIcon" src="./img/Group1.png" alt="websiteIcon" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,7 +70,7 @@
               </h1>
             </div>
             <div class="frame3TextDiv">
-              <p class="text">
+              <p class="text" id="centerAlignText">
                 Experience the difference with Kawadercom, your trusted partner in
                 all things talent. Our commitment to excellence sets us apart,
                 enabling us
@@ -79,7 +79,7 @@
               </p>
             </div>
             <div class="frame3AnchorDiv">
-              <a class="joinNowAnchor">
+              <a class="joinNowAnchor2" id="frame3JoinNow" href="#">
                 JOIN NOW <span class="arrow">&rarr;</span>
               </a>
             </div>
@@ -93,12 +93,13 @@
   </section>
 
   <section>
-    <div class="container-md">
+    <div class="container">
       <div class="row">
-        <div class="col" >
+        <div class="col-lg" >
           <div class="rectangle6">
             <img class="group70Image" src="./img/Group70.png" alt="">
-            <div>
+          <div>
+            <div class="rectangle6Text">
           <h3>
             What we have <span class="coloredSpan"> for clients?</span>
           </h3>
@@ -123,7 +124,7 @@
               talent to your doorstep.
             </p>
           <a class="button3Frame buttonText" href="#"> JOIN AS CLIENT <span class="arrow">&rarr;</span></a>
-
+        </div>
         </div>
           <!--
           <button class="button3Frame buttonText" style="margin-top: 50px;">
@@ -132,9 +133,11 @@
           -->
         </div>
         </div>
-        <div class="col">
+        <div class="col-lg">
           <div class="rectangle6">
             <img class="group70Image" src="./img/Group70.png" alt="">
+            <div>
+              <div class="rectangle6Text">
           <h3>
             What we have <span style="color: #1b90dd"> for candidates?</span>
           </h3>
@@ -159,6 +162,8 @@
             </p>
           </div>
           <a class="button3Frame buttonText" href="#"> JOIN AS CANDIDATE <span class="arrow">&rarr;</span></a>
+        </div>
+      </div>
           <!--
           <button class="button3Frame buttonText">
             JOIN AS A CANDIDATE <span class="arrow"> &rarr;</span>
@@ -173,7 +178,7 @@
   <section>
     <div class="container-md">
       <div class="row">
-        <div class="d-flex justify-content-center exploreJobsWimg">
+        <div class="d-flex justify-content-center exploreJobImg">
           <img class="png" src="./img/Vector(1).png" alt="image" />
           <p class="exploreJobs">EXPLORE JOBS</p>
         </div>
@@ -255,7 +260,6 @@
         -->
         <div class="container">
           <div class="row">
-        <div class="col" >
           <div class="tabs">
             <ul id="tabs-nav">
                 <li><a id="tabs-anchor" class="tab-anchor" href="#software-engineer">Software Engineer</a></li>
@@ -533,7 +537,6 @@
                 </div>
             </div>
         </div>
-        </div>
       </div>
     <div class="row">
       <div class="col">
@@ -628,11 +631,11 @@
                 </div>
               </div>
             </div>
-            <button class="frame4ButtonBox" style="background-color: #0e2f53;"><span class="buttonText">JOIN NOW <span
-                  class="arrow">&rarr;</span></span></button>
+            <a class="joinNowAnchor2" href="#">JOIN NOW <span
+                  class="arrow">&rarr;</span></a>
           </div>
           <div class="col-md-6">
-            <img style="max-width: 100%;" src="./img/Group68.png" alt="">
+            <img class="group68Image" src="./img/Group68.png" alt="">
           </div>
         </div>
       </div>
@@ -768,8 +771,8 @@
             </p>
           </div>
           <div class="col-lg-4" id="frame73Col">
-            <button class="joinNowAnchor" style="background-color: #0e2f53;"><span class="buttonText">JOIN NOW <span
-                  class="arrow">&rarr;</span></span></button>
+            <a id="coloredJoinNow" class="joinNowAnchor" href="#">JOIN NOW <span
+                  class="arrow">&rarr;</span></a>
           </div>
         </div>
       </div>
@@ -779,34 +782,33 @@
   <section>
     <div class="container">
       <div class="row">
-        <div class="col-lg-6" style="position: relative;">
-          <div style="position: relative;">
+        <div class="col-lg-6">
+          <div class="frame136">
             <div class="frame15">
               <img class="png" src="./img/Vector(1).png" alt="">
               <span class="frame15Text">GET TO KNOW US</span>
             </div>
-            <span style="font-weight: 600; font-size: 40px; line-height: 64px; margin-left: 19px;">About <span
-                style="color: #1b90dd;">Kawadercom</span></span>
+            <span class="frame138Heading">About <span
+                class="coloredSpan">Kawadercom</span></span>
             <div class="frame144">
-              <p class="frame42Text">At Kawadercom, we're more than just a recruitment agency - we're a team of
+              <p class="frame144Text">At Kawadercom, we're more than just a recruitment agency - we're a team of
                 dedicated
                 professionals driven
                 by a shared passion for connecting talent with opportunity. With years of experience in the recruitment
                 industry, we have the expertise and insight needed to serve diverse talent and recruitment needs.</p>
 
-              <a class="readMore" href="#"><span style="font-weight: 500;">Read More</span> <img
-                  style="height: 4px; width: 20px;" src="./img/Frame143.png" alt=""> </a>
+              <a class="readMore" href="#"><span style="font-weight: 500;">Read More</span> <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+                <circle cx="2" cy="2" r="2" fill="#1B90DD"/>
+              </svg> </a>
             </div>
             <div class="frame140">
-              <div style="display: flex;">
                 <img class="png" style="margin-top: 7px;" src="./img/GrayVector(4).png" alt="">
                 <div>
-                  <p class="frame15Text" style="color: #00000099;">
+                  <p class="frame140Text" style="color: #00000099;">
                     We're excited to have you join our journey and look forward to helping you achieve your recruitment
                     or
                     career goals.
                   </p>
-                </div>
               </div>
             </div>
           </div>
@@ -949,7 +951,9 @@
               </div>
             </div>
             <a class="frame22 frame22Special" href="#">
-              SEE MORE <img class="svg" src="./img/Vector(5).png" alt="">
+              SEE JOBS <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none">
+                <path d="M3.81814 4.9999L0 1.18172L1.0909 0.0908203L6 4.9999L1.0909 9.90891L0 8.81802L3.81814 4.9999Z" />
+              </svg>
             </a>
           </div>
         </div>
@@ -968,7 +972,9 @@
               </div>
             </div>
             <a class="frame22 frame22Special" href="#">
-              SEE MORE <img class="svg" src="./img/Vector(5).png" alt="">
+              SEE JOBS <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none">
+                <path d="M3.81814 4.9999L0 1.18172L1.0909 0.0908203L6 4.9999L1.0909 9.90891L0 8.81802L3.81814 4.9999Z" />
+              </svg>
             </a>
           </div>
         </div>
@@ -987,7 +993,9 @@
               </div>
             </div>
             <a class="frame22 frame22Special" href="#">
-              SEE MORE <img class="svg" src="./img/Vector(5).png" alt="">
+              SEE JOBS <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none">
+                <path d="M3.81814 4.9999L0 1.18172L1.0909 0.0908203L6 4.9999L1.0909 9.90891L0 8.81802L3.81814 4.9999Z" />
+              </svg>
             </a>
           </div>
         </div>
@@ -1006,7 +1014,9 @@
               </div>
             </div>
             <a class="frame22 frame22Special" href="#">
-              SEE MORE <img class="svg" src="./img/Vector(5).png" alt="">
+              SEE JOBS <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none">
+                <path d="M3.81814 4.9999L0 1.18172L1.0909 0.0908203L6 4.9999L1.0909 9.90891L0 8.81802L3.81814 4.9999Z" />
+              </svg>
             </a>
           </div>
         </div>
@@ -1043,7 +1053,7 @@
             Agency</h4>
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="frame66">
         
         <div class="col">
           <div class="frame66">
@@ -1104,7 +1114,7 @@
         </div>
         <div class="col">
           <div>
-            <div class="Frame14">
+            <div class="Frame14" id="fAccordion">
               <img class="png" src="./img/Vector(1).png" alt="">
               <span class="Frame14Text">FREQUENTLY ASKED QUESTIONS</span>
             </div>
@@ -1207,6 +1217,11 @@
                   data-bs-toggle="dropdown" aria-expanded="false">
                   SEE ALL
                 </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Question 1</a>
+                  <a class="dropdown-item" href="#">Question 2</a>
+                  <a class="dropdown-item" href="#">Question 3</a>
+                </div>
               </div>
             </div>
           </div>
@@ -1245,9 +1260,9 @@
               <img class="frame112Img" src="./img/Group61.png" alt="">
               <div class="frame112TextDiv">
                 <p class="frame112Text">Experience the difference with Kawadercom, your trusted partner in all things
-                  talent. Our <br> commitment to excellence sets us apart, enabling us <span class="highLightText"> to
+                  talent. Our commitment to excellence sets us apart, enabling us <span class="highLightText"> to
                     bridge the gap between
-                    companies and <br>
+                    companies and 
                     candidates</span> with precision and integrity.</p>
               </div>
             </div>
@@ -1256,7 +1271,7 @@
         <div class="row">
           <div class="frame111">
             <ul class="anchorList">
-              <li class="anchorBorder"><a class="frame111Anchor" href="#">For Clients</a></li>
+              <li class="anchorBorder"><a class="frame111Anchor" href="#"><span class="activeAnchor">For Clients</span></a></li>
               <li class="anchorBorder"><a class="frame111Anchor" href="#">For Candidates</a></li>
               <li class="anchorBorder"><a class="frame111Anchor" href="#">Why Us</a></li>
               <li><a class="frame111Anchor" href="#">Get To Know Us</a></li>
@@ -1286,10 +1301,21 @@
     var owl = $('.owl-carousel');
     owl.owlCarousel({
       items: 7,
+      responsive:{
+        0:{
+          items:2
+        },
+        600:{
+          items:3
+        },
+        1000:{
+          items:4
+        }
+      },
       dots: false,
-      loop: false,
+      loop: true,
       margin: 10,
-      autoplay: false,
+      autoplay: true,
       autoplayTimeout: 1000,
       autoplayHoverPause: true
     });
@@ -1299,6 +1325,7 @@
     $('.stop').on('click', function () {
       owl.trigger('stop.owl.autoplay')
     })
+
 
   </script>
   <script src="./js/script.js"></script>

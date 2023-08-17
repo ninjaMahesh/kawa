@@ -7,11 +7,19 @@
 
 .frame1Font {
     font-weight: 600;
-    size: 14px;
+    font-size: 15px;
     line-height: 22.4px;
     color: #111111;
-    margin-top: 16px;
-    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.navbar-brand:hover{
+    background-color: transparent;
+}
+
+.frame1Font:hover{
+    background-color: transparent;
 }
 
 .joinNowButton {
@@ -86,6 +94,11 @@ section{
     text-decoration: none;
 }
 
+a:hover{
+    color: white;
+    background-color: #1b90dd;
+}
+
 .image1 {
     max-width: 97%;
     border-radius: 12px;
@@ -99,7 +112,7 @@ section{
 
 h3 {
     font-weight: 600;
-    size: 40px;
+    font-size: 27px;
     line-height: 48px;
 }
 
@@ -113,13 +126,13 @@ h3 {
 .button3Frame {
     width: 259px;
     display: flex;
-    height: 51px;
     border: 2px solid #1b90dd;
     border-radius: 100px;
     padding: 20px, 40px;
     margin-top: 45px;
     justify-content: center;
     align-items: center;
+    transition: .5s;
 }
 
 .exploreJobs {
@@ -130,7 +143,7 @@ h3 {
     text-align: center;
 }
 
-.exploreJobsWimg{
+.exploreJobImg{
     margin-top: 60px;
 }
 
@@ -205,6 +218,7 @@ ul{
 
 .rectangle6{
     position: relative;
+    padding: 20px;
 }
 
 .rectangle22{
@@ -303,10 +317,11 @@ h5{
 }
 .accordion-button::after{
     background-image: url("../img/plus.png");
+    background-size: 10px;
 }
 .accordion-button:not(.collapsed)::after{
     background-image: url("../img/minus.png");
-    margin-top: -12px;
+    margin-top: -17px;
 }
 
 .fAccordion-button{
@@ -319,6 +334,8 @@ h5{
 
 .fAccordion-button::after{
     background-image: url("../img/Vector\(7\).png") ;
+    background-size: 10px;
+    margin-top: 10px;
 }
 
 .fAccordion-button:not(.collapsed)::after{
@@ -406,7 +423,7 @@ h5{
     text-decoration: none;
 }
 .frame144{
-    gap: 20px;
+    width: 50ch;
     margin-left: 19px;
     position: relative;
 }
@@ -422,15 +439,16 @@ h5{
     text-decoration: none;
 }
 .frame140{
-    margin-top: 100px;
+    margin-top: 75px;
     margin-left: 19px;
     background-color: #f5f5f5;
     display: flex;
+    width: 45ch;
 }
 .frame4{
     border: 2px solid #1b90dd;
     border-radius: 100px;
-    padding: 10px 20px 10px 20px;
+    padding: 5px 25px 10px 25px;
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
@@ -439,10 +457,11 @@ h5{
     position: absolute;
     right: 0px;
     bottom: 0px;
+    transition: .5s;
 }
 .rectangle37{
     background-color: #0e2f53;
-    height: 468px;
+    height: 400px;
     margin-top: 65px;
     padding-top: 20px;
 }
@@ -469,6 +488,7 @@ h5{
     background-color: white;
     padding-top: 77px;
     text-align: center;
+    box-shadow: 0px 4px 100px 0px #0000001A;
 }
 .rectangle18Heading{
     font-weight: 700;
@@ -508,7 +528,8 @@ h5{
     text-decoration: none;
     border: 2px solid #1b90dd;
     border-radius: 100px;
-    padding: 20px 40px 20px 40px;
+    padding: 10px 40px 10px 40px;
+    transition: .5s;
 }
 .svg{
     width: 6px;
@@ -683,7 +704,6 @@ input.inputField{
 .formSubmit{
     width: 486px;
     max-width: 100%;
-    height: 60px;
     background-color: #1b90dd;
     border: none;
     border-radius: 10px;
@@ -691,9 +711,21 @@ input.inputField{
     text-align: center;
     font-weight: 800;
     font-size: 16px;
+    padding: 20px 30px 15px 30px;
     line-height: 25.6px;
-
+    transition: .5s;
 }
+
+.formSubmit:hover{
+    background-color: white;
+    color: #0e2f53;
+}
+
+.formSubmit:active{
+    background-color: white;
+    color: #0e2f53;
+}
+
 .Frame14Text{
     font-weight: 500;
     font-size: 15px;
@@ -760,14 +792,22 @@ input.inputField{
     border: 2px solid white;
     background-color: transparent;
     border-radius: 100px;
-    padding: 10px 20px 10px 20px;
+    padding: 3px 30px 6px 30px;
     font-weight: 600;
     font-size: 16px;
     line-height: 22.4px;
     color: #ffffff;
     text-decoration: none;
     position: absolute;
+    transition: .5s;
 }
+
+.frame109Anchor:hover{
+    background-color: #0e2f53;
+    color: white;
+    border-color: #0e2f53;
+}
+
 .footerBgImg{
     position: absolute;
     bottom: 0px;
@@ -789,6 +829,8 @@ input.inputField{
 }
 .frame112TextDiv{
     text-align: center;
+    width: 65ch;
+    margin-left: 235px;
 
 }
 .frame112Text{
@@ -822,6 +864,7 @@ a:active{
     margin-top: 30px;
     padding-top: 20px;
     text-align: center;
+    padding-bottom: 30px;
 }
 .anchorList{
     list-style-type: none;
@@ -844,12 +887,34 @@ a:active{
 .joinNowAnchor{
     border: 2px solid #1b90dd;
     background-color: transparent;
-    padding: 10px 20px 10px 20px;
+    padding: 3px 20px 5px 20px;
     border-radius: 100px;
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
     line-height: 22.4px;
+    transition: .5s;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+.joinNowAnchor2{
+    border: 2px solid #1b90dd;
+    background-color: transparent;
+    padding: 5px 20px 5px 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22.4px;
+    transition: .5s;
+}
+
+a:active{
+    color: white;
+    background-color: #1b90dd;
 }
 
 .frame3AMargin{
@@ -887,6 +952,30 @@ a:active{
 .frame22Special{
     border:none;
     padding: 0px;
+    transition: .5s;
+}
+
+.frame22Special:active{
+    color: #0e2f53;
+    background-color: white;
+}
+
+.frame22Special:hover{
+    color: #0e2f53;
+    background-color: white;
+    fill: #0e2f53;
+}
+.frame22Special svg{
+    fill:#1B90DD;
+    margin-top: -3px;
+}
+
+.frame22Special:hover svg{
+    fill: #0e2f53;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
 }
 
 .accodionHeading{
@@ -918,6 +1007,7 @@ a:active{
 
 a.frame111Anchor:hover{
     color: white !important;
+    background-color: transparent;
 }
 
 body{
@@ -938,11 +1028,13 @@ body{
 .numBox{
     border-radius: 8px;
     background: #FFFFFF0F;
-    padding: 10px;
+    padding: 7px 10px 6px 10px;
     font-size: 11px;
     font-weight: 400;
     color: white;
     line-height: 19.2px;
+    margin-left: -21px;
+    margin-right: 21px;
 }
 
 .textContainer{
@@ -992,6 +1084,10 @@ textarea:focus{
 textarea{
     border: none;
     box-shadow: none;
+}
+
+.accordion{
+    margin-bottom: 40px;
 }
 
 .accordion-header:focus{
@@ -1049,7 +1145,7 @@ p{
 .frame174Heading{
     font-weight: 600;
     line-height: 64px;
-    size: 40px;
+    font-size: 40px;
     color: #111111;
 }
 
@@ -1189,9 +1285,389 @@ ul#tabs-nav a:hover{
     font-weight: 400;
     border-radius: 2px;
     line-height: 27.2px;
+    transition: .5s;
+}
+
+.tab-anchor:hover{
+    border-color: #1b90dd;
+    color: #1b90dd;
+    background-color: transparent;
+}
+
+.rectangle6Text{
+    padding: 60px 70px 10px 28px;
 }
 
 .frame169{
     margin-top: 50px;
     display: flex;
+}
+
+.dropdown-menu{
+    background-color: transparent;
+    border: none;
+}
+
+.dropdown-item{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.6px;
+}
+
+.dropdownButton:hover{
+    color: #1b90dd;
+    border-color: #1b90dd;
+    box-shadow: none;
+}
+
+.dropdownButton:active{
+    color: #1b90dd;
+    border-color: #1b90dd;
+    box-shadow: none;
+}
+
+.dropdown-item:hover{
+    background-color: transparent;
+    color: #1b90dd;
+}
+
+.dropdown-item:focus{
+    box-shadow: none;
+}
+
+.frame136{
+    position: relative;
+}
+
+.frame138Heading{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 64px;
+    margin-left: 19px;
+}
+
+.frame144Text{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #111111B2;
+}
+
+.frame140Text{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #00000099;
+
+}
+
+.activeAnchor{
+    color: white;
+    font-weight: 600;
+}
+
+.group68Image{
+    max-width: 100%;
+}
+
+/*Responsive Web Page CSS*/
+
+@media screen and (max-width:475px) {
+    .websiteIcon{
+        margin-left: 52px;
+    }
+    .joinNowAnchor{
+        margin-left: 134px;
+        padding: 2px 10px 5px 10px;
+        font-size: 14px;
+        line-height: 18.4px;
+    }
+    .navbar-toggler-icon:active{
+        box-shadow: none;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .frame1Font{
+        font-size: 14px;
+        line-height: 18.4px;
+    }
+    .heading1{
+        font-size: 32px;
+        margin-top: 15px;
+        line-height: 39.6px;
+        margin-left: 26px;
+    }
+    .heading1Box{
+        font-size: 30px;
+        max-width: 89%;
+        margin-left: 26px;
+    }
+    .text{
+        max-width: 49ch;
+    }
+    .frame3AnchorDiv{
+        margin-top: 30px;
+    }
+    .image1{
+        max-width: 100%;
+        margin-top: 55px;
+    }
+    .group70Image{
+        visibility: none;
+        display: none;
+    }
+    .rectangle6{
+        padding: 16px;
+    }
+    .rectangle6Text{
+        padding: 0px;
+    }
+    .heading4{
+        margin-top: 10px;
+    }
+    h3{
+        font-size: 26px;
+    }
+    ul#tabs-nav{
+        display: grid;
+    }
+    .whyChooseUs{
+        font-size: 13px;
+    }
+    .accodionHeading{
+        font-size: 32px;
+    }
+    .accordionHeading{
+        font-size: 16px;
+    }
+    .accordionText{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .group68Image{
+        margin-top: 40px;
+    }
+    .placementText{
+        font-size: 7px;
+        line-height: 16.4px;
+    }
+    .recruitmentData{
+        font-size: 34px;
+        line-height: 29.6px;
+    }
+    .frame174Heading{
+        font-size: 24px;
+    }
+    .text-overlay{
+        top: 62%;
+    }
+    .imageHeading{
+        font-size: 21px;
+        line-height: 24.2px;
+    }
+    .imageText{
+        font-size: 11px;
+        line-height: 21.8px;
+    }
+    .owl-carousel .owl-item img{
+        max-width: 69%;
+        max-height: 71%;
+
+    }
+    #coloredJoinNow{
+        margin-left: 0px;
+        margin-right: 257px;
+        margin-top: 26px;
+    }
+    .frame138Heading{
+        font-size: 32px;
+        margin-left: 12px;
+        line-height: 48px;
+
+    }
+    .frame144{
+        width: 36ch;
+        margin-left: 10px;
+    }
+    .frame144Text{
+        font-size: 12px;
+        line-height: 18.8px;
+    }
+    .readMore{
+        padding: 5px 8px 5px 8px;
+        font-size: 14px;
+    }
+    .frame136{
+        margin-left: 50px;
+    }
+    .frame140{
+        width: 34ch;
+    }
+    .frame140Text{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .textContainer{
+        max-width: 42ch;
+        font-size: 14px;
+        line-height: 20.8px;
+        margin-left: 45px;
+    }
+    .frame15{
+        padding: 5px 12px 5px 12px;
+
+    }
+    .frame53Heading{
+        font-size: 32px;
+        line-height: 46px;
+    }
+    .frame53Text{
+        font-size: 12px;
+        line-height: 18px;
+        padding-bottom: 25px;
+    }
+    .frame169{
+        display: block;
+    }
+    .frame4{
+        font-size: 14px;
+        line-height: 20.4px;
+        position: unset;
+        padding: 5px 13px 5px 13px;
+    }   
+    .ellipse{
+        margin-top: -9%;
+    }
+    .png{
+        height: 16px;
+        margin-right: 5px;
+
+    }
+    .frame15Text{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .frame15Heading{
+        font-size: 24px;
+        line-height: 32.8px;
+    }
+    #frame66{
+        display: block;
+    }
+    .frame66Text{
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .getInTouchForm{
+        max-width: 100%;
+    }
+    .mailSendLine{
+        width: 34px;
+        height: 34px;
+    }
+    .formHeading{
+        font-size: 22px;
+        line-height: 34.8px;
+    }
+    .formText{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .nameField{
+        height: 40px;
+        background-size: 15px;
+        max-width: 94%;
+    }
+    .emailField{
+        height: 40px;
+        background-size: 15px;
+        max-width: 94%;
+    }
+    .telephoneField{
+        height: 40px;
+        background-size: 15px;
+        max-width: 94%;
+    }
+    .messageField{
+        height: 120px;
+        max-width: 94%;
+    }
+    .formSubmit{
+        max-width: 94%;
+        padding: 10px 30px 6px 30px;
+    }
+    #fAccordion{
+        margin-top: 48px;
+
+    }
+    .Frame14Text{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .frame15Heading{
+        font-size: 24px;
+        line-height: 26.8px;
+    }
+    .frame108{
+        font-size: 20px;
+        line-height: 30.6px;
+        margin-top: -30px;
+    }
+    .frame109Text{
+        margin-right: 64px;
+        margin-top: 15px;
+        font-size: 13px;
+        line-height: 24.8px;
+    }
+    .frame145{
+        padding-bottom: 100px;
+    }
+    .frame109Anchor{
+        font-size: 14px;
+        line-height: 17.4px;
+        padding: 3px 20px 6px 20px;
+    }
+    .frame112Img{
+        width: 150px;
+    }
+    .frame112TextDiv{
+        width: 40ch;
+        margin-left: 34px;
+    }
+    .frame111{
+        margin-top: 60px;
+    }
+    .frame111Anchor{
+        font-size: 12px;
+        line-height: 20.6px;
+        margin-right: 16px;
+    }
+    .frame113{
+        margin-top: 18px;
+        padding-top: 15px;
+        padding-bottom: 22px;
+    }
+    .frame113Text{
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .frame113Bold{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    #tabs-content{
+        display: none;
+    }
+    #centerAlignText{
+        margin-left: 26px;
+    }
+    #frame3JoinNow{
+        margin-left: 26px
+        ;
+    }
+    .exploreJobImg{
+        margin-top: 0px;
+    }
 }
