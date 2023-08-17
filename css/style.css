@@ -1378,7 +1378,7 @@ ul#tabs-nav a:hover{
         margin-left: 52px;
     }
     .joinNowAnchor{
-        margin-left: 134px;
+        margin-left: 156px;
         padding: 2px 10px 5px 10px;
         font-size: 14px;
         line-height: 18.4px;
@@ -1513,7 +1513,8 @@ ul#tabs-nav a:hover{
         max-width: 42ch;
         font-size: 14px;
         line-height: 20.8px;
-        margin-left: 45px;
+        margin-left: 54px;
+        margin-right: 0px;
     }
     .frame15{
         padding: 5px 12px 5px 12px;
