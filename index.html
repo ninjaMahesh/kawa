@@ -26,8 +26,8 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+      <div class="container" id="largeDevice">
         <a class="navbar-brand col-lg-5" href="#">
           <img class="websiteIcon" src="./img/Group1.png" alt="websiteIcon" />
         </a>
@@ -55,7 +55,38 @@
           </ul>
         </div>
       </div>
+      <div id="smallDevice">
+        <div class="header">
+          <img class="websiteIcon" src="../img/Group1.png" alt="">
+        </div>
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+          <div class="spinner diagonal part-1"></div>
+          <div class="spinner horizontal"></div>
+          <div class="spinner diagonal part-2"></div>
+        </label>
+        <div id="sidebarMenu">
+          <ul class="sidebarMenuInner">
+            <li>
+              <a class="frame1Font active" aria-current="page" href="#">For Clients</a>
+            </li>
+            <li>
+              <a class="frame1Font disabled " id="disabled" href="#">For Candidates</a>
+            </li>
+            <li>
+              <a class="frame1Font disabled " id="disabled" href="#">Why Us?</a>
+            </li>
+            <li>
+              <a class="frame1Font disabled " id="disabled" href="#">Get To Know Us</a>
+            </li>
+            <li class="navJoinNowAlign">
+              <a class="joinNowAnchor" href="#">JOIN NOW</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
+
   </header>
 
   <section>
@@ -70,7 +101,7 @@
               </h1>
             </div>
             <div class="frame3TextDiv">
-              <p class="text" id="centerAlignText">
+              <p class="text">
                 Experience the difference with Kawadercom, your trusted partner in
                 all things talent. Our commitment to excellence sets us apart,
                 enabling us
@@ -79,7 +110,7 @@
               </p>
             </div>
             <div class="frame3AnchorDiv">
-              <a class="joinNowAnchor2" id="frame3JoinNow" href="#">
+              <a class="joinNowAnchor2" href="#">
                 JOIN NOW <span class="arrow">&rarr;</span>
               </a>
             </div>
@@ -95,82 +126,82 @@
   <section>
     <div class="container">
       <div class="row">
-        <div class="col-lg" >
+        <div class="col-lg">
           <div class="rectangle6">
             <img class="group70Image" src="./img/Group70.png" alt="">
-          <div>
-            <div class="rectangle6Text">
-          <h3>
-            What we have <span class="coloredSpan"> for clients?</span>
-          </h3>
-            <h5 class="heading4">Bespoke Recruitment Solutions</h5>
-            <p class="text" style="max-width: 57ch">
-              Our offerings are more than just a one-size-fits-all approach.
-              We understand that every business is unique, so we tailor our
-              recruitment solutions to match your distinctive needs.
-            </p>
-            <h5 class="heading4">Deep Industry Insights</h5>
-              <p class="text" style="max-width: 57ch">
-                With our in-depth knowledge across various sectors, we're able
-                to pinpoint the talent that perfectly aligns with your business
-                objectives and culture. From technology to finance, healthcare
-                to manufacturing, we have the industry expertise to deliver.
-              </p>
-            <h5 class="heading4">Global Talent Pool</h5>
-            <p class="text" style="max-width: 57ch">
-              Our extensive international network provides access to a diverse
-              range of skilled professionals. No matter where you're located
-              or what your needs are, we have the reach to deliver the right
-              talent to your doorstep.
-            </p>
-          <a class="button3Frame buttonText" href="#"> JOIN AS CLIENT <span class="arrow">&rarr;</span></a>
-        </div>
-        </div>
-          <!--
+            <div>
+              <div class="rectangle6Text">
+                <h3>
+                  What we have <span class="coloredSpan"> for clients?</span>
+                </h3>
+                <h5 class="heading4">Bespoke Recruitment Solutions</h5>
+                <p class="text" style="max-width: 57ch">
+                  Our offerings are more than just a one-size-fits-all approach.
+                  We understand that every business is unique, so we tailor our
+                  recruitment solutions to match your distinctive needs.
+                </p>
+                <h5 class="heading4">Deep Industry Insights</h5>
+                <p class="text" style="max-width: 57ch">
+                  With our in-depth knowledge across various sectors, we're able
+                  to pinpoint the talent that perfectly aligns with your business
+                  objectives and culture. From technology to finance, healthcare
+                  to manufacturing, we have the industry expertise to deliver.
+                </p>
+                <h5 class="heading4">Global Talent Pool</h5>
+                <p class="text" style="max-width: 57ch">
+                  Our extensive international network provides access to a diverse
+                  range of skilled professionals. No matter where you're located
+                  or what your needs are, we have the reach to deliver the right
+                  talent to your doorstep.
+                </p>
+                <a class="button3Frame buttonText" href="#"> JOIN AS CLIENT <span class="arrow">&rarr;</span></a>
+              </div>
+            </div>
+            <!--
           <button class="button3Frame buttonText" style="margin-top: 50px;">
             JOIN AS CLIENT <span class="arrow"> &rarr;</span>
           </button>
           -->
-        </div>
+          </div>
         </div>
         <div class="col-lg">
           <div class="rectangle6">
             <img class="group70Image" src="./img/Group70.png" alt="">
             <div>
               <div class="rectangle6Text">
-          <h3>
-            What we have <span style="color: #1b90dd"> for candidates?</span>
-          </h3>
-          <div>
-            <h5 class="heading4">Career Opportunities Galore</h5>
-            <p class="text" style="max-width: 57ch">
-              Dive into a world of exciting opportunities with us. Our rich
-              database of jobs across sectors and regions helps you discover
-              roles that perfectly match your career aspirations.
-            </p>
-            <h5 class="heading4">Guided Journey</h5>
-            <p class="text" style="max-width: 57ch">
-              We support you at every step of your job search journey. From
-              resume advice to interview coaching, we're here to ensure you
-              present your best self to potential employers.
-            </p>
-            <h5 class="heading4">Respectful and Secure</h5>
-            <p class="text" style="max-width: 57ch">
-              We value your trust. Rest assured, we handle your data with the
-              highest level of confidentiality, and your job search experience
-              with us is secure and respectful.
-            </p>
-          </div>
-          <a class="button3Frame buttonText" href="#"> JOIN AS CANDIDATE <span class="arrow">&rarr;</span></a>
-        </div>
-      </div>
-          <!--
+                <h3>
+                  What we have <span style="color: #1b90dd"> for candidates?</span>
+                </h3>
+                <div>
+                  <h5 class="heading4">Career Opportunities Galore</h5>
+                  <p class="text" style="max-width: 57ch">
+                    Dive into a world of exciting opportunities with us. Our rich
+                    database of jobs across sectors and regions helps you discover
+                    roles that perfectly match your career aspirations.
+                  </p>
+                  <h5 class="heading4">Guided Journey</h5>
+                  <p class="text" style="max-width: 57ch">
+                    We support you at every step of your job search journey. From
+                    resume advice to interview coaching, we're here to ensure you
+                    present your best self to potential employers.
+                  </p>
+                  <h5 class="heading4">Respectful and Secure</h5>
+                  <p class="text" style="max-width: 57ch">
+                    We value your trust. Rest assured, we handle your data with the
+                    highest level of confidentiality, and your job search experience
+                    with us is secure and respectful.
+                  </p>
+                </div>
+                <a class="button3Frame buttonText" href="#"> JOIN AS CANDIDATE <span class="arrow">&rarr;</span></a>
+              </div>
+            </div>
+            <!--
           <button class="button3Frame buttonText">
             JOIN AS A CANDIDATE <span class="arrow"> &rarr;</span>
           </button>
           -->
+          </div>
         </div>
-      </div>
       </div>
     </div>
   </section>
@@ -189,7 +220,7 @@
         </div>
       </div>
     </div>
-<!--
+    <!--
     <div class="container">
       <div class="rectangle22">
         <ul>
@@ -258,292 +289,292 @@
           </div>
         </div>
         -->
-        <div class="container">
-          <div class="row">
-          <div class="tabs">
-            <ul id="tabs-nav">
-                <li><a id="tabs-anchor" class="tab-anchor" href="#software-engineer">Software Engineer</a></li>
-                <li><a id="tabs-anchor" class="tab-anchor" href="#project-manager">Project Manager</a></li>
-                <li><a id="tabs-anchor" class="tab-anchor" href="#system-analyst">System Analyst</a></li>
-                <li><a id="tabs-anchor" class="tab-anchor" href="#ux-designer">UX Designer</a></li>
-                <li><a id="tabs-anchor" class="tab-anchor" href="#accountant">Accountant</a></li>
-                <li><a id="tabs-anchor" class="tab-anchor" href="#human-resource">Human Resource</a></li>
-            </ul> <!-- END tabs-nav -->
-            <div id="tabs-content">
-                <div id="software-engineer" class="tab-content">
-                    <div>
-                        <h4 class="group65Text">Job Title</h4>
-                        <p class="rectangle22Text">Software Engineer</p>
-                        <p class="rectangle22Text">Software Engineer</p>
-                        <p class="rectangle22Text">Software Engineer</p>
-                        <p class="rectangle22Text">Software Engineer</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Company</h4>
-                        <p class="rectangle22Text">ABC Corporation</p>
-                        <p class="rectangle22Text">XYZ Company</p>
-                        <p class="rectangle22Text">Acme Inc.</p>
-                        <p class="rectangle22Text">GlobalTech</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Department</h4>
-                        <p class="rectangle22Text">Engineering</p>
-                        <p class="rectangle22Text">Information Technology</p>
-                        <p class="rectangle22Text">Operations</p>
-                        <p class="rectangle22Text">Sales</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Location</h4>
-                        <p class="rectangle22Text">San Francisco</p>
-                        <p class="rectangle22Text">New York</p>
-                        <p class="rectangle22Text">London</p>
-                        <p class="rectangle22Text">Chicago</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Posted Date</h4>
-                        <p class="rectangle22Text">2023-05-10</p>
-                        <p class="rectangle22Text">2023-05-08</p>
-                        <p class="rectangle22Text">2023-05-06</p>
-                        <p class="rectangle22Text">2023-05-04</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text"><span class="deadline">Deadline</span></h4>
-                        <p class="rectangle22Text">2023-05-13 <span class="deadlineText">(3 days left)</span></p>
-                        <p class="rectangle22Text">2023-05-28</p>
-                        <p class="rectangle22Text">2023-05-10 <span class="deadlineText">(4 days left)</span></p>
-                        <p class="rectangle22Text">2023-05-24</p>
-                    </div>
-                </div>
-                <div id="project-manager" class="tab-content">
-                    <div>
-                        <h4 class="group65Text">Job Title</h4>
-                        <p class="rectangle22Text">Project Manager</p>
-                        <p class="rectangle22Text">Project Manager</p>
-                        <p class="rectangle22Text">Project Manager</p>
-                        <p class="rectangle22Text">Project Manager</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Company</h4>
-                        <p class="rectangle22Text">ABC Corporation</p>
-                        <p class="rectangle22Text">XYZ Company</p>
-                        <p class="rectangle22Text">Acme Inc.</p>
-                        <p class="rectangle22Text">GlobalTech</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Department</h4>
-                        <p class="rectangle22Text">Engineering</p>
-                        <p class="rectangle22Text">Information Technology</p>
-                        <p class="rectangle22Text">Operations</p>
-                        <p class="rectangle22Text">Sales</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Location</h4>
-                        <p class="rectangle22Text">San Francisco</p>
-                        <p class="rectangle22Text">New York</p>
-                        <p class="rectangle22Text">London</p>
-                        <p class="rectangle22Text">Chicago</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Posted Date</h4>
-                        <p class="rectangle22Text">2023-05-10</p>
-                        <p class="rectangle22Text">2023-05-08</p>
-                        <p class="rectangle22Text">2023-05-06</p>
-                        <p class="rectangle22Text">2023-05-04</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text"><span class="deadline">Deadline</span></h4>
-                        <p class="rectangle22Text">2023-05-13 <span class="deadlineText">(3 days left)</span></p>
-                        <p class="rectangle22Text">2023-05-28</p>
-                        <p class="rectangle22Text">2023-05-10 <span class="deadlineText">(4 days left)</span></p>
-                        <p class="rectangle22Text">2023-05-24</p>
-                    </div>
-                </div>
-                <div id="system-analyst" class="tab-content">
-    
-                    <div>
-                        <h4 class="group65Text">Job Title</h4>
-                        <p class="rectangle22Text">System Analyst</p>
-                        <p class="rectangle22Text">System Analyst</p>
-                        <p class="rectangle22Text">System Analyst</p>
-                        <p class="rectangle22Text">System Analyst</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Company</h4>
-                        <p class="rectangle22Text">ABC Corporation</p>
-                        <p class="rectangle22Text">XYZ Company</p>
-                        <p class="rectangle22Text">Acme Inc.</p>
-                        <p class="rectangle22Text">GlobalTech</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Department</h4>
-                        <p class="rectangle22Text">Engineering</p>
-                        <p class="rectangle22Text">Information Technology</p>
-                        <p class="rectangle22Text">Operations</p>
-                        <p class="rectangle22Text">Sales</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Location</h4>
-                        <p class="rectangle22Text">San Francisco</p>
-                        <p class="rectangle22Text">New York</p>
-                        <p class="rectangle22Text">London</p>
-                        <p class="rectangle22Text">Chicago</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Posted Date</h4>
-                        <p class="rectangle22Text">2023-05-10</p>
-                        <p class="rectangle22Text">2023-05-08</p>
-                        <p class="rectangle22Text">2023-05-06</p>
-                        <p class="rectangle22Text">2023-05-04</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text"><span class="deadline">Deadline</span></h4>
-                        <p class="rectangle22Text">2023-05-13 <span class="deadlineText">(3 days left)</span></p>
-                        <p class="rectangle22Text">2023-05-28</p>
-                        <p class="rectangle22Text">2023-05-10 <span class="deadlineText">(4 days left)</span></p>
-                        <p class="rectangle22Text">2023-05-24</p>
-                    </div>
-                </div>
-                <div id="ux-designer" class="tab-content">
-                    <div>
-                        <h4 class="group65Text">Job Title</h4>
-                        <p class="rectangle22Text">UX Designer</p>
-                        <p class="rectangle22Text">UX Designer</p>
-                        <p class="rectangle22Text">UX Designer</p>
-                        <p class="rectangle22Text">UX Designer</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Company</h4>
-                        <p class="rectangle22Text">ABC Corporation</p>
-                        <p class="rectangle22Text">XYZ Company</p>
-                        <p class="rectangle22Text">Acme Inc.</p>
-                        <p class="rectangle22Text">GlobalTech</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Department</h4>
-                        <p class="rectangle22Text">Engineering</p>
-                        <p class="rectangle22Text">Information Technology</p>
-                        <p class="rectangle22Text">Operations</p>
-                        <p class="rectangle22Text">Sales</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Location</h4>
-                        <p class="rectangle22Text">San Francisco</p>
-                        <p class="rectangle22Text">New York</p>
-                        <p class="rectangle22Text">London</p>
-                        <p class="rectangle22Text">Chicago</p>
-                    </div>
-                    <div class="rectangle22Items">
-                        <h4 class="group65Text">Posted Date</h4>
-                        <p class="rectangle22Text">2023-05-10</p>
-                        <p class="rectangle22Text">2023-05-08</p>
-                        <p class="rectangle22Text">2023-05-06</p>
-                        <p class="rectangle22Text">2023-05-04</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text"><span class="deadline">Deadline</span></h4>
-                        <p class="rectangle22Text">2023-05-13 <span class="deadlineText">(3 days left)</span></p>
-                        <p class="rectangle22Text">2023-05-28</p>
-                        <p class="rectangle22Text">2023-05-10 <span class="deadlineText">(4 days left)</span></p>
-                        <p class="rectangle22Text">2023-05-24</p>
-                    </div>
-                </div>
-                <div id="accountant" class="tab-content">
-                    <div>
-                        <h4 class="group65Text">Job Title</h4>
-                        <p class="rectangle22Text">Accountant</p>
-                        <p class="rectangle22Text">Accountant</p>
-                        <p class="rectangle22Text">Accountant</p>
-                        <p class="rectangle22Text">Accountant</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Company</h4>
-                        <p class="rectangle22Text">ABC Corporation</p>
-                        <p class="rectangle22Text">XYZ Company</p>
-                        <p class="rectangle22Text">Acme Inc.</p>
-                        <p class="rectangle22Text">GlobalTech</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Department</h4>
-                        <p class="rectangle22Text">Engineering</p>
-                        <p class="rectangle22Text">Information Technology</p>
-                        <p class="rectangle22Text">Operations</p>
-                        <p class="rectangle22Text">Sales</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Location</h4>
-                        <p class="rectangle22Text">San Francisco</p>
-                        <p class="rectangle22Text">New York</p>
-                        <p class="rectangle22Text">London</p>
-                        <p class="rectangle22Text">Chicago</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Posted Date</h4>
-                        <p class="rectangle22Text">2023-05-10</p>
-                        <p class="rectangle22Text">2023-05-08</p>
-                        <p class="rectangle22Text">2023-05-06</p>
-                        <p class="rectangle22Text">2023-05-04</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text"><span class="deadline">Deadline</span></h4>
-                        <p class="rectangle22Text">2023-05-13 <span class="deadlineText">(3 days left)</span></p>
-                        <p class="rectangle22Text">2023-05-28</p>
-                        <p class="rectangle22Text">2023-05-10 <span class="deadlineText">(4 days left)</span></p>
-                        <p class="rectangle22Text">2023-05-24</p>
-                    </div>
-                </div>
-                <div id="human-resource" class="tab-content">
-                    <div>
-                        <h4 class="group65Text">Job Title</h4>
-                        <p class="rectangle22Text">Human Resource</p>
-                        <p class="rectangle22Text">Human Resource</p>
-                        <p class="rectangle22Text">Human Resource</p>
-                        <p class="rectangle22Text">Human Resource</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Company</h4>
-                        <p class="rectangle22Text">ABC Corporation</p>
-                        <p class="rectangle22Text">XYZ Company</p>
-                        <p class="rectangle22Text">Acme Inc.</p>
-                        <p class="rectangle22Text">GlobalTech</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Department</h4>
-                        <p class="rectangle22Text">Engineering</p>
-                        <p class="rectangle22Text">Information Technology</p>
-                        <p class="rectangle22Text">Operations</p>
-                        <p class="rectangle22Text">Sales</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Location</h4>
-                        <p class="rectangle22Text">San Francisco</p>
-                        <p class="rectangle22Text">New York</p>
-                        <p class="rectangle22Text">London</p>
-                        <p class="rectangle22Text">Chicago</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text">Posted Date</h4>
-                        <p class="rectangle22Text">2023-05-10</p>
-                        <p class="rectangle22Text">2023-05-08</p>
-                        <p class="rectangle22Text">2023-05-06</p>
-                        <p class="rectangle22Text">2023-05-04</p>
-                    </div>
-                    <div>
-                        <h4 class="group65Text"><span class="deadline">Deadline</span></h4>
-                        <p class="rectangle22Text">2023-05-13 <span class="deadlineText">(3 days left)</span></p>
-                        <p class="rectangle22Text">2023-05-28</p>
-                        <p class="rectangle22Text">2023-05-10 <span class="deadlineText">(4 days left)</span></p>
-                        <p class="rectangle22Text">2023-05-24</p>
-                    </div>
-                </div>
+    <div class="container">
+      <div class="row">
+        <div class="tabs">
+          <ul id="tabs-nav">
+            <li><a id="tabs-anchor" class="tab-anchor" href="#software-engineer">Software Engineer</a></li>
+            <li><a id="tabs-anchor" class="tab-anchor" href="#project-manager">Project Manager</a></li>
+            <li><a id="tabs-anchor" class="tab-anchor" href="#system-analyst">System Analyst</a></li>
+            <li><a id="tabs-anchor" class="tab-anchor" href="#ux-designer">UX Designer</a></li>
+            <li><a id="tabs-anchor" class="tab-anchor" href="#accountant">Accountant</a></li>
+            <li><a id="tabs-anchor" class="tab-anchor" href="#human-resource">Human Resource</a></li>
+          </ul> <!-- END tabs-nav -->
+          <div id="tabs-content">
+            <div id="software-engineer" class="tab-content">
+              <div>
+                <h4 class="group65Text">Job Title</h4>
+                <p class="rectangle22Text">Software Engineer</p>
+                <p class="rectangle22Text">Software Engineer</p>
+                <p class="rectangle22Text">Software Engineer</p>
+                <p class="rectangle22Text">Software Engineer</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Company</h4>
+                <p class="rectangle22Text">ABC Corporation</p>
+                <p class="rectangle22Text">XYZ Company</p>
+                <p class="rectangle22Text">Acme Inc.</p>
+                <p class="rectangle22Text">GlobalTech</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Department</h4>
+                <p class="rectangle22Text">Engineering</p>
+                <p class="rectangle22Text">Information Technology</p>
+                <p class="rectangle22Text">Operations</p>
+                <p class="rectangle22Text">Sales</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Location</h4>
+                <p class="rectangle22Text">San Francisco</p>
+                <p class="rectangle22Text">New York</p>
+                <p class="rectangle22Text">London</p>
+                <p class="rectangle22Text">Chicago</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Posted Date</h4>
+                <p class="rectangle22Text">2023-05-10</p>
+                <p class="rectangle22Text">2023-05-08</p>
+                <p class="rectangle22Text">2023-05-06</p>
+                <p class="rectangle22Text">2023-05-04</p>
+              </div>
+              <div>
+                <h4 class="group65Text"><span class="deadline">Deadline</span></h4>
+                <p class="rectangle22Text">2023-05-13 <span class="deadlineText">(3 days left)</span></p>
+                <p class="rectangle22Text">2023-05-28</p>
+                <p class="rectangle22Text">2023-05-10 <span class="deadlineText">(4 days left)</span></p>
+                <p class="rectangle22Text">2023-05-24</p>
+              </div>
             </div>
+            <div id="project-manager" class="tab-content">
+              <div>
+                <h4 class="group65Text">Job Title</h4>
+                <p class="rectangle22Text">Project Manager</p>
+                <p class="rectangle22Text">Project Manager</p>
+                <p class="rectangle22Text">Project Manager</p>
+                <p class="rectangle22Text">Project Manager</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Company</h4>
+                <p class="rectangle22Text">ABC Corporation</p>
+                <p class="rectangle22Text">XYZ Company</p>
+                <p class="rectangle22Text">Acme Inc.</p>
+                <p class="rectangle22Text">GlobalTech</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Department</h4>
+                <p class="rectangle22Text">Engineering</p>
+                <p class="rectangle22Text">Information Technology</p>
+                <p class="rectangle22Text">Operations</p>
+                <p class="rectangle22Text">Sales</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Location</h4>
+                <p class="rectangle22Text">San Francisco</p>
+                <p class="rectangle22Text">New York</p>
+                <p class="rectangle22Text">London</p>
+                <p class="rectangle22Text">Chicago</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Posted Date</h4>
+                <p class="rectangle22Text">2023-05-10</p>
+                <p class="rectangle22Text">2023-05-08</p>
+                <p class="rectangle22Text">2023-05-06</p>
+                <p class="rectangle22Text">2023-05-04</p>
+              </div>
+              <div>
+                <h4 class="group65Text"><span class="deadline">Deadline</span></h4>
+                <p class="rectangle22Text">2023-05-13 <span class="deadlineText">(3 days left)</span></p>
+                <p class="rectangle22Text">2023-05-28</p>
+                <p class="rectangle22Text">2023-05-10 <span class="deadlineText">(4 days left)</span></p>
+                <p class="rectangle22Text">2023-05-24</p>
+              </div>
+            </div>
+            <div id="system-analyst" class="tab-content">
+
+              <div>
+                <h4 class="group65Text">Job Title</h4>
+                <p class="rectangle22Text">System Analyst</p>
+                <p class="rectangle22Text">System Analyst</p>
+                <p class="rectangle22Text">System Analyst</p>
+                <p class="rectangle22Text">System Analyst</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Company</h4>
+                <p class="rectangle22Text">ABC Corporation</p>
+                <p class="rectangle22Text">XYZ Company</p>
+                <p class="rectangle22Text">Acme Inc.</p>
+                <p class="rectangle22Text">GlobalTech</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Department</h4>
+                <p class="rectangle22Text">Engineering</p>
+                <p class="rectangle22Text">Information Technology</p>
+                <p class="rectangle22Text">Operations</p>
+                <p class="rectangle22Text">Sales</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Location</h4>
+                <p class="rectangle22Text">San Francisco</p>
+                <p class="rectangle22Text">New York</p>
+                <p class="rectangle22Text">London</p>
+                <p class="rectangle22Text">Chicago</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Posted Date</h4>
+                <p class="rectangle22Text">2023-05-10</p>
+                <p class="rectangle22Text">2023-05-08</p>
+                <p class="rectangle22Text">2023-05-06</p>
+                <p class="rectangle22Text">2023-05-04</p>
+              </div>
+              <div>
+                <h4 class="group65Text"><span class="deadline">Deadline</span></h4>
+                <p class="rectangle22Text">2023-05-13 <span class="deadlineText">(3 days left)</span></p>
+                <p class="rectangle22Text">2023-05-28</p>
+                <p class="rectangle22Text">2023-05-10 <span class="deadlineText">(4 days left)</span></p>
+                <p class="rectangle22Text">2023-05-24</p>
+              </div>
+            </div>
+            <div id="ux-designer" class="tab-content">
+              <div>
+                <h4 class="group65Text">Job Title</h4>
+                <p class="rectangle22Text">UX Designer</p>
+                <p class="rectangle22Text">UX Designer</p>
+                <p class="rectangle22Text">UX Designer</p>
+                <p class="rectangle22Text">UX Designer</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Company</h4>
+                <p class="rectangle22Text">ABC Corporation</p>
+                <p class="rectangle22Text">XYZ Company</p>
+                <p class="rectangle22Text">Acme Inc.</p>
+                <p class="rectangle22Text">GlobalTech</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Department</h4>
+                <p class="rectangle22Text">Engineering</p>
+                <p class="rectangle22Text">Information Technology</p>
+                <p class="rectangle22Text">Operations</p>
+                <p class="rectangle22Text">Sales</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Location</h4>
+                <p class="rectangle22Text">San Francisco</p>
+                <p class="rectangle22Text">New York</p>
+                <p class="rectangle22Text">London</p>
+                <p class="rectangle22Text">Chicago</p>
+              </div>
+              <div class="rectangle22Items">
+                <h4 class="group65Text">Posted Date</h4>
+                <p class="rectangle22Text">2023-05-10</p>
+                <p class="rectangle22Text">2023-05-08</p>
+                <p class="rectangle22Text">2023-05-06</p>
+                <p class="rectangle22Text">2023-05-04</p>
+              </div>
+              <div>
+                <h4 class="group65Text"><span class="deadline">Deadline</span></h4>
+                <p class="rectangle22Text">2023-05-13 <span class="deadlineText">(3 days left)</span></p>
+                <p class="rectangle22Text">2023-05-28</p>
+                <p class="rectangle22Text">2023-05-10 <span class="deadlineText">(4 days left)</span></p>
+                <p class="rectangle22Text">2023-05-24</p>
+              </div>
+            </div>
+            <div id="accountant" class="tab-content">
+              <div>
+                <h4 class="group65Text">Job Title</h4>
+                <p class="rectangle22Text">Accountant</p>
+                <p class="rectangle22Text">Accountant</p>
+                <p class="rectangle22Text">Accountant</p>
+                <p class="rectangle22Text">Accountant</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Company</h4>
+                <p class="rectangle22Text">ABC Corporation</p>
+                <p class="rectangle22Text">XYZ Company</p>
+                <p class="rectangle22Text">Acme Inc.</p>
+                <p class="rectangle22Text">GlobalTech</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Department</h4>
+                <p class="rectangle22Text">Engineering</p>
+                <p class="rectangle22Text">Information Technology</p>
+                <p class="rectangle22Text">Operations</p>
+                <p class="rectangle22Text">Sales</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Location</h4>
+                <p class="rectangle22Text">San Francisco</p>
+                <p class="rectangle22Text">New York</p>
+                <p class="rectangle22Text">London</p>
+                <p class="rectangle22Text">Chicago</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Posted Date</h4>
+                <p class="rectangle22Text">2023-05-10</p>
+                <p class="rectangle22Text">2023-05-08</p>
+                <p class="rectangle22Text">2023-05-06</p>
+                <p class="rectangle22Text">2023-05-04</p>
+              </div>
+              <div>
+                <h4 class="group65Text"><span class="deadline">Deadline</span></h4>
+                <p class="rectangle22Text">2023-05-13 <span class="deadlineText">(3 days left)</span></p>
+                <p class="rectangle22Text">2023-05-28</p>
+                <p class="rectangle22Text">2023-05-10 <span class="deadlineText">(4 days left)</span></p>
+                <p class="rectangle22Text">2023-05-24</p>
+              </div>
+            </div>
+            <div id="human-resource" class="tab-content">
+              <div>
+                <h4 class="group65Text">Job Title</h4>
+                <p class="rectangle22Text">Human Resource</p>
+                <p class="rectangle22Text">Human Resource</p>
+                <p class="rectangle22Text">Human Resource</p>
+                <p class="rectangle22Text">Human Resource</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Company</h4>
+                <p class="rectangle22Text">ABC Corporation</p>
+                <p class="rectangle22Text">XYZ Company</p>
+                <p class="rectangle22Text">Acme Inc.</p>
+                <p class="rectangle22Text">GlobalTech</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Department</h4>
+                <p class="rectangle22Text">Engineering</p>
+                <p class="rectangle22Text">Information Technology</p>
+                <p class="rectangle22Text">Operations</p>
+                <p class="rectangle22Text">Sales</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Location</h4>
+                <p class="rectangle22Text">San Francisco</p>
+                <p class="rectangle22Text">New York</p>
+                <p class="rectangle22Text">London</p>
+                <p class="rectangle22Text">Chicago</p>
+              </div>
+              <div>
+                <h4 class="group65Text">Posted Date</h4>
+                <p class="rectangle22Text">2023-05-10</p>
+                <p class="rectangle22Text">2023-05-08</p>
+                <p class="rectangle22Text">2023-05-06</p>
+                <p class="rectangle22Text">2023-05-04</p>
+              </div>
+              <div>
+                <h4 class="group65Text"><span class="deadline">Deadline</span></h4>
+                <p class="rectangle22Text">2023-05-13 <span class="deadlineText">(3 days left)</span></p>
+                <p class="rectangle22Text">2023-05-28</p>
+                <p class="rectangle22Text">2023-05-10 <span class="deadlineText">(4 days left)</span></p>
+                <p class="rectangle22Text">2023-05-24</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    <div class="row">
-      <div class="col">
-        <div class="rectangle22">
-          <a class="frame22" href="#">JOIN NOW TO APPLY <span class="arrow">&rarr;</span></a>
+      <div class="row">
+        <div class="col">
+          <div class="rectangle22">
+            <a class="frame22" href="#">JOIN NOW TO APPLY <span class="arrow">&rarr;</span></a>
+          </div>
         </div>
-      </div>
       </div>
     </div>
   </section>
@@ -552,7 +583,7 @@
     <div>
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <div>
               <div class="Frame14">
                 <img src="./img/Vector(3).png" alt="">
@@ -631,11 +662,11 @@
                 </div>
               </div>
             </div>
-            <a class="joinNowAnchor2" href="#">JOIN NOW <span
-                  class="arrow">&rarr;</span></a>
+            <a class="joinNowAnchor2" href="#">JOIN NOW <span class="arrow">&rarr;</span></a>
           </div>
-          <div class="col-md-6">
-            <img class="group68Image" src="./img/Group68.png" alt="">
+          <div class="col-lg-6">
+            <img id="largeDevice" class="group68Image" src="./img/Group68.png" alt="">
+            <img id="smallDevice" class="group68Image" src="./img/Rectangle25.png" alt="">
           </div>
         </div>
       </div>
@@ -644,7 +675,7 @@
 
   <section>
     <div class="container">
-      <div class="row">
+      <div class="row" id="placementData">
         <div class="col">
           <p class="recruitmentData">500</p>
           <p class="placementText">TOTAL APPLICANTS</p>
@@ -676,7 +707,7 @@
       </div>
       <div class="row">
         <div class="col-lg-6" style="position: relative;">
-          <img class="image-container img-fluid" src="./img/Rectangle27.png" alt="">
+          <img id="imgCntnr1" class="image-container img-fluid" src="./img/Rectangle27.png" alt="">
           <div class="text-overlay">
             <h2 class="imageHeading">Advanced Job Search</h2>
             <p class="imageText">With our sophisticated job search feature, candidates can effortlessly browse through
@@ -716,44 +747,44 @@
 
   <section>
     <div class="container">
-    <div class="owl-carousel owl-theme">
-      <div class="item">
-        <div class="carouselLogos">
-          <img class="salesforce" src="./img/salesforce.png" alt="salesforce logo">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="carouselLogos">
+            <img class="salesforce" src="./img/salesforce.png" alt="salesforce logo">
+          </div>
         </div>
-      </div>
-      <div class="item">
-        <div class="carouselLogos">
-          <img class="hubspot" src="./img/hubspot.png" alt="hubspot logo">
+        <div class="item">
+          <div class="carouselLogos">
+            <img class="hubspot" src="./img/hubspot.png" alt="hubspot logo">
+          </div>
         </div>
-      </div>
-      <div class="item">
-        <div class="carouselLogos">
-          <img class="microsoft" src="./img/microsoft-icon.png" alt="microsoft logo">
+        <div class="item">
+          <div class="carouselLogos">
+            <img class="microsoft" src="./img/microsoft-icon.png" alt="microsoft logo">
+          </div>
         </div>
-      </div>
-      <div class="item">
-        <div class="carouselLogos">
-          <img class="wework" src="./img/wework.png" alt="we work logo">
+        <div class="item">
+          <div class="carouselLogos">
+            <img class="wework" src="./img/wework.png" alt="we work logo">
+          </div>
         </div>
-      </div>
-      <div class="item">
-        <div class="carouselLogos">
-          <img class="detuschBank" src="./img/detuschBank.png" alt="Detusch bank logo">
+        <div class="item">
+          <div class="carouselLogos">
+            <img class="detuschBank" src="./img/detuschBank.png" alt="Detusch bank logo">
+          </div>
         </div>
-      </div>
-      <div class="item">
-        <div class="carouselLogos">
-          <img class="vodafone" src="./img/vodafone.png" alt="vodafone logo">
+        <div class="item">
+          <div class="carouselLogos">
+            <img class="vodafone" src="./img/vodafone.png" alt="vodafone logo">
+          </div>
         </div>
-      </div>
-      <div class="item">
-        <div class="carouselLogos">
-          <img class="americanBank" src="./img/americanExpress.png" alt="American express logo">
+        <div class="item">
+          <div class="carouselLogos">
+            <img class="americanBank" src="./img/americanExpress.png" alt="American express logo">
+          </div>
         </div>
       </div>
     </div>
-  </div>
   </section>
 
   <section>
@@ -771,8 +802,7 @@
             </p>
           </div>
           <div class="col-lg-4" id="frame73Col">
-            <a id="coloredJoinNow" class="joinNowAnchor" href="#">JOIN NOW <span
-                  class="arrow">&rarr;</span></a>
+            <a id="coloredJoinNow" class="joinNowAnchor" href="#">JOIN NOW <span class="arrow">&rarr;</span></a>
           </div>
         </div>
       </div>
@@ -788,8 +818,7 @@
               <img class="png" src="./img/Vector(1).png" alt="">
               <span class="frame15Text">GET TO KNOW US</span>
             </div>
-            <span class="frame138Heading">About <span
-                class="coloredSpan">Kawadercom</span></span>
+            <span class="frame138Heading">About <span class="coloredSpan">Kawadercom</span></span>
             <div class="frame144">
               <p class="frame144Text">At Kawadercom, we're more than just a recruitment agency - we're a team of
                 dedicated
@@ -797,18 +826,19 @@
                 by a shared passion for connecting talent with opportunity. With years of experience in the recruitment
                 industry, we have the expertise and insight needed to serve diverse talent and recruitment needs.</p>
 
-              <a class="readMore" href="#"><span style="font-weight: 500;">Read More</span> <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
-                <circle cx="2" cy="2" r="2" fill="#1B90DD"/>
-              </svg> </a>
+              <a class="readMore" href="#"><span style="font-weight: 500;">Read More</span> <svg
+                  xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+                  <circle cx="2" cy="2" r="2" fill="#1B90DD" />
+                </svg> </a>
             </div>
             <div class="frame140">
-                <img class="png" style="margin-top: 7px;" src="./img/GrayVector(4).png" alt="">
-                <div>
-                  <p class="frame140Text" style="color: #00000099;">
-                    We're excited to have you join our journey and look forward to helping you achieve your recruitment
-                    or
-                    career goals.
-                  </p>
+              <img class="png" id="grayPng" style="margin-top: 7px;" src="./img/GrayVector(4).png" alt="">
+              <div>
+                <p class="frame140Text" style="color: #00000099;">
+                  We're excited to have you join our journey and look forward to helping you achieve your recruitment
+                  or
+                  career goals.
+                </p>
               </div>
             </div>
           </div>
@@ -823,21 +853,21 @@
   <section class="rectangle37">
     <div class="container">
       <div class="row">
-       <div class="frame169">
-        <div class="col-lg-8">
-          <a class="frame15" style="background-color: #ffffff12; text-decoration: none;" href="#">
-            <img class="png" src="./img/Vector(3).png" alt="">
-            <span class="jobs">JOBS</span>
-          </a>
-          <h3 class="frame53Heading">Our <span style="color: #1b90dd;">Job</span> Categories</h3>
-          <p class="frame53Text">We operate across a diverse range of industries, connecting candidates with exciting
-            opportunities in:</p>
-        </div>
-        <div class="col-lg-4" style="position: relative;">
-          <a class="frame4" href="#">SEE MORE <span class="arrow">&rarr;</span></a>
+        <div class="frame169">
+          <div class="col-lg-8">
+            <a class="frame15" id="jobsB" style="background-color: #ffffff12; text-decoration: none;" href="#">
+              <img class="png" src="./img/Vector(3).png" alt="">
+              <span class="jobs">JOBS</span>
+            </a>
+            <h3 class="frame53Heading">Our <span style="color: #1b90dd;">Job</span> Categories</h3>
+            <p class="frame53Text">We operate across a diverse range of industries, connecting candidates with exciting
+              opportunities in:</p>
+          </div>
+          <div class="col-lg-4" style="position: relative;">
+            <a class="frame4" href="#">SEE MORE <span class="arrow">&rarr;</span></a>
+          </div>
         </div>
       </div>
-    </div>
     </div>
     <!--
     <div class="container">
@@ -945,14 +975,15 @@
               <div>
                 <h5 class="rectangle18Heading">TECHNOLOGY & IT</h5>
               </div>
-              <div style="width: fit-content; text-align: center;">
+              <div>
                 <p class="rectangle18Text">From software developers and IT support to data scientists and cybersecurity
                   experts.</p>
               </div>
             </div>
             <a class="frame22 frame22Special" href="#">
               SEE JOBS <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none">
-                <path d="M3.81814 4.9999L0 1.18172L1.0909 0.0908203L6 4.9999L1.0909 9.90891L0 8.81802L3.81814 4.9999Z" />
+                <path
+                  d="M3.81814 4.9999L0 1.18172L1.0909 0.0908203L6 4.9999L1.0909 9.90891L0 8.81802L3.81814 4.9999Z" />
               </svg>
             </a>
           </div>
@@ -973,7 +1004,8 @@
             </div>
             <a class="frame22 frame22Special" href="#">
               SEE JOBS <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none">
-                <path d="M3.81814 4.9999L0 1.18172L1.0909 0.0908203L6 4.9999L1.0909 9.90891L0 8.81802L3.81814 4.9999Z" />
+                <path
+                  d="M3.81814 4.9999L0 1.18172L1.0909 0.0908203L6 4.9999L1.0909 9.90891L0 8.81802L3.81814 4.9999Z" />
               </svg>
             </a>
           </div>
@@ -994,7 +1026,8 @@
             </div>
             <a class="frame22 frame22Special" href="#">
               SEE JOBS <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none">
-                <path d="M3.81814 4.9999L0 1.18172L1.0909 0.0908203L6 4.9999L1.0909 9.90891L0 8.81802L3.81814 4.9999Z" />
+                <path
+                  d="M3.81814 4.9999L0 1.18172L1.0909 0.0908203L6 4.9999L1.0909 9.90891L0 8.81802L3.81814 4.9999Z" />
               </svg>
             </a>
           </div>
@@ -1015,7 +1048,8 @@
             </div>
             <a class="frame22 frame22Special" href="#">
               SEE JOBS <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none">
-                <path d="M3.81814 4.9999L0 1.18172L1.0909 0.0908203L6 4.9999L1.0909 9.90891L0 8.81802L3.81814 4.9999Z" />
+                <path
+                  d="M3.81814 4.9999L0 1.18172L1.0909 0.0908203L6 4.9999L1.0909 9.90891L0 8.81802L3.81814 4.9999Z" />
               </svg>
             </a>
           </div>
@@ -1029,12 +1063,12 @@
       <div class="row">
         <div class="col">
           <div>
-          <div class="textContainer">
-            <p>Whether you're a client looking for talent in these sectors, or a candidate seeking your next role,
-              Kawadercom has the network and expertise to facilitate your needs. Connect with us today to explore the
-              possibilities.
-            </p>
-          </div>
+            <div class="textContainer">
+              <p>Whether you're a client looking for talent in these sectors, or a candidate seeking your next role,
+                Kawadercom has the network and expertise to facilitate your needs. Connect with us today to explore the
+                possibilities.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -1054,30 +1088,32 @@
         </div>
       </div>
       <div class="row" id="frame66">
-        
+
         <div class="col">
           <div class="frame66">
-          <h6 class="frame66Heading">HR Solutions</h6>
-          <p class="frame66Text">At Kawadercom, we offer a comprehensive suite of HR solutions designed to meet your
-            unique business needs. Whether you are looking for individual professionals, need to staff a new location,
-            require in-house HR services, or have a project that needs managing, we have you covered.</p>
+            <h6 class="frame66Heading">HR Solutions</h6>
+            <p class="frame66Text">At Kawadercom, we offer a comprehensive suite of HR solutions designed to meet your
+              unique business needs. Whether you are looking for individual professionals, need to staff a new location,
+              require in-house HR services, or have a project that needs managing, we have you covered.</p>
+          </div>
         </div>
-      </div>
         <div class="col">
           <div class="frame66">
-          <h6 class="frame66Heading">Professional Recruitment</h6>
-          <p class="frame66Text">Our Professional Recruitment services are designed to help you find highly skilled
-            individuals for your team. We leverage our expansive network and industry expertise to connect you with
-            professionals who not only have the skills you need, but also fit seamlessly into your company culture.</p>
+            <h6 class="frame66Heading">Professional Recruitment</h6>
+            <p class="frame66Text">Our Professional Recruitment services are designed to help you find highly skilled
+              individuals for your team. We leverage our expansive network and industry expertise to connect you with
+              professionals who not only have the skills you need, but also fit seamlessly into your company culture.
+            </p>
+          </div>
         </div>
-      </div>
         <div class="col">
           <div class="frame66">
-          <h6 class="frame66Heading">Staffing Solutions</h6>
-          <p class="frame66Text">Whether you're a startup in the growth phase or an established company launching a new
-            division, our Staffing Solutions can help. We source and vet potential candidates, ensuring you get the
-            talent you need quickly and efficiently. We take care of the recruitment process, so you can focus on what
-            you do best – running your business.</p>
+            <h6 class="frame66Heading">Staffing Solutions</h6>
+            <p class="frame66Text">Whether you're a startup in the growth phase or an established company launching a
+              new
+              division, our Staffing Solutions can help. We source and vet potential candidates, ensuring you get the
+              talent you need quickly and efficiently. We take care of the recruitment process, so you can focus on what
+              you do best – running your business.</p>
           </div>
         </div>
       </div>
@@ -1127,7 +1163,8 @@
                 <div class="accordion-item">
                   <h6 class="accordion-header" id="fAccHeadingOne">
                     <button class="accordion-button fAccordion-button" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseFAccOne" aria-expanded="true" aria-controls="collapseFAccOne" style="box-shadow: none;">
+                      data-bs-target="#collapseFAccOne" aria-expanded="true" aria-controls="collapseFAccOne"
+                      style="box-shadow: none;">
                       <span class="frame96AccordionHeading"> <span class="numBox">1</span> Frequently asked questions
                         goes here</span>
                     </button>
@@ -1144,7 +1181,8 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="fAccHeadingTwo">
                     <button class="accordion-button collapsed fAccordion-button" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseFAccTwo" aria-expanded="false" aria-controls="collapseFAccTwo" style="box-shadow: none;">
+                      data-bs-target="#collapseFAccTwo" aria-expanded="false" aria-controls="collapseFAccTwo"
+                      style="box-shadow: none;">
                       <span class="frame96AccordionHeading"> <span class="numBox">2</span> Frequently asked questions
                         goes here</span>
                     </button>
@@ -1161,7 +1199,8 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="fAccHeadingThree">
                     <button class="accordion-button collapsed fAccordion-button" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseFAccThree" aria-expanded="false" aria-controls="collapseFAccThree"  style="box-shadow: none;">
+                      data-bs-target="#collapseFAccThree" aria-expanded="false" aria-controls="collapseFAccThree"
+                      style="box-shadow: none;">
                       <span class="frame96AccordionHeading"> <span class="numBox">3</span> Frequently asked questions
                         goes here</span>
                     </button>
@@ -1178,7 +1217,8 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="fAccHeadingFour">
                     <button class="accordion-button collapsed fAccordion-button" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseFAccFour" aria-expanded="false" aria-controls="collapseFAccFour" style="box-shadow: none;">
+                      data-bs-target="#collapseFAccFour" aria-expanded="false" aria-controls="collapseFAccFour"
+                      style="box-shadow: none;">
                       <span class="frame96AccordionHeading"> <span class="numBox">4</span> Frequently asked questions
                         goes here</span>
                     </button>
@@ -1195,7 +1235,8 @@
                 <div class="accordion-item" id="lastAccordionItem">
                   <h2 class="accordion-header" id="fAccHeadingFive">
                     <button class="accordion-button collapsed fAccordion-button" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseFAccFive" aria-expanded="false" aria-controls="collapseFAccFive" style="box-shadow: none;">
+                      data-bs-target="#collapseFAccFive" aria-expanded="false" aria-controls="collapseFAccFive"
+                      style="box-shadow: none;">
                       <span class="frame96AccordionHeading"> <span class="numBox">5</span> Frequently asked questions
                         goes here</span>
                     </button>
@@ -1246,7 +1287,7 @@
                 </p>
                 <a class="frame109Anchor" href="#">Join Now <span class="arrow">&rarr;</span></a>
               </div>
-              
+
             </div>
           </div>
         </div>
@@ -1262,7 +1303,7 @@
                 <p class="frame112Text">Experience the difference with Kawadercom, your trusted partner in all things
                   talent. Our commitment to excellence sets us apart, enabling us <span class="highLightText"> to
                     bridge the gap between
-                    companies and 
+                    companies and
                     candidates</span> with precision and integrity.</p>
               </div>
             </div>
@@ -1271,7 +1312,8 @@
         <div class="row">
           <div class="frame111">
             <ul class="anchorList">
-              <li class="anchorBorder"><a class="frame111Anchor" href="#"><span class="activeAnchor">For Clients</span></a></li>
+              <li class="anchorBorder"><a class="frame111Anchor" href="#"><span class="activeAnchor">For
+                    Clients</span></a></li>
               <li class="anchorBorder"><a class="frame111Anchor" href="#">For Candidates</a></li>
               <li class="anchorBorder"><a class="frame111Anchor" href="#">Why Us</a></li>
               <li><a class="frame111Anchor" href="#">Get To Know Us</a></li>
@@ -1301,15 +1343,15 @@
     var owl = $('.owl-carousel');
     owl.owlCarousel({
       items: 7,
-      responsive:{
-        0:{
-          items:2
+      responsive: {
+        0: {
+          items: 2
         },
-        600:{
-          items:3
+        600: {
+          items: 3
         },
-        1000:{
-          items:4
+        1000: {
+          items: 4
         }
       },
       dots: false,
@@ -1330,23 +1372,23 @@
   </script>
   <script src="./js/script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script>
-        // Show the first tab and hide the rest
-        $('#tabs-nav li:first-child').addClass('active');
-        $('.tab-content').hide();
-        $('.tab-content:first').show();
+  <script>
+    // Show the first tab and hide the rest
+    $('#tabs-nav li:first-child').addClass('active');
+    $('.tab-content').hide();
+    $('.tab-content:first').show();
 
-        // Click function
-        $('#tabs-nav li').click(function () {
-            $('#tabs-nav li').removeClass('active');
-            $(this).addClass('active');
-            $('.tab-content').hide();
+    // Click function
+    $('#tabs-nav li').click(function () {
+      $('#tabs-nav li').removeClass('active');
+      $(this).addClass('active');
+      $('.tab-content').hide();
 
-            var activeTab = $(this).find('a').attr('href');
-            $(activeTab).fadeIn();
-            return false;
-        });
-    </script>
+      var activeTab = $(this).find('a').attr('href');
+      $(activeTab).fadeIn();
+      return false;
+    });
+  </script>
 </body>
 
 </html>

@@ -11,6 +11,7 @@
     line-height: 22.4px;
     color: #111111;
     margin-top: 5px;
+    text-decoration: none;
     margin-right: 10px;
 }
 
@@ -1288,6 +1289,10 @@ ul#tabs-nav a:hover{
     transition: .5s;
 }
 
+#smallDevice{
+    display: none;
+}
+
 .tab-anchor:hover{
     border-color: #1b90dd;
     color: #1b90dd;
@@ -1371,17 +1376,20 @@ ul#tabs-nav a:hover{
     max-width: 100%;
 }
 
+#grayPng{
+    margin-top: 7px;
+}
+
 /*Responsive Web Page CSS*/
 
-@media screen and (max-width:475px) {
-    .websiteIcon{
-        margin-left: 52px;
+@media screen and (max-width:576px) {
+    .navJoinNowAlign{
+        justify-content: center;
     }
     .joinNowAnchor{
-        margin-left: 156px;
-        padding: 2px 10px 5px 10px;
-        font-size: 14px;
-        line-height: 18.4px;
+        padding: 12px 20px 12px 20px;
+        font-size: 15px;
+        line-height: 6.4px;
     }
     .navbar-toggler-icon:active{
         box-shadow: none;
@@ -1394,18 +1402,16 @@ ul#tabs-nav a:hover{
         line-height: 18.4px;
     }
     .heading1{
-        font-size: 32px;
+        font-size: 28px;
         margin-top: 15px;
         line-height: 39.6px;
-        margin-left: 26px;
     }
     .heading1Box{
-        font-size: 30px;
-        max-width: 89%;
-        margin-left: 26px;
+        font-size: 27px;
+        max-width: 98%;
     }
     .text{
-        max-width: 49ch;
+        max-width: 65ch;
     }
     .frame3AnchorDiv{
         margin-top: 30px;
@@ -1426,12 +1432,19 @@ ul#tabs-nav a:hover{
     }
     .heading4{
         margin-top: 10px;
+        font-size: 16px;
     }
     h3{
-        font-size: 26px;
+        font-size: 22px;
     }
     ul#tabs-nav{
         display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-bottom: 0px;
+        justify-content: center;
+    }
+    .tab-anchor{
+        padding: 2px 5px;
     }
     .whyChooseUs{
         font-size: 13px;
@@ -1450,46 +1463,46 @@ ul#tabs-nav a:hover{
         margin-top: 40px;
     }
     .placementText{
-        font-size: 7px;
-        line-height: 16.4px;
+        font-size: 12px;
+        line-height: 24.4px;
     }
     .recruitmentData{
-        font-size: 34px;
-        line-height: 29.6px;
+        font-size: 45px;
+        line-height: 38.6px;
     }
     .frame174Heading{
-        font-size: 24px;
+        font-size: 23px;
     }
     .text-overlay{
-        top: 62%;
+        top: 55%;
     }
     .imageHeading{
-        font-size: 21px;
-        line-height: 24.2px;
+        font-size: 17px;
+        line-height: 20.2px;
     }
     .imageText{
         font-size: 11px;
-        line-height: 21.8px;
+        line-height: 17.8px;
     }
     .owl-carousel .owl-item img{
-        max-width: 69%;
-        max-height: 71%;
+        max-width: 100%;
+        max-height: 87%;
 
     }
     #coloredJoinNow{
         margin-left: 0px;
-        margin-right: 257px;
         margin-top: 26px;
     }
     .frame138Heading{
-        font-size: 32px;
-        margin-left: 12px;
+        font-size: 33px;
+        margin-left: -45px;
         line-height: 48px;
 
     }
     .frame144{
-        width: 36ch;
-        margin-left: 10px;
+        max-width: 100%;
+        width: 46ch;
+        margin-left: -46px;
     }
     .frame144Text{
         font-size: 12px;
@@ -1503,14 +1516,17 @@ ul#tabs-nav a:hover{
         margin-left: 50px;
     }
     .frame140{
-        width: 34ch;
+        max-width: 100%;
+        width: 43ch;
+        margin-left: -46px;
     }
     .frame140Text{
         font-size: 12px;
         line-height: 14px;
     }
     .textContainer{
-        max-width: 42ch;
+        max-width: 70%;
+        width: 42ch;
         font-size: 14px;
         line-height: 20.8px;
         margin-left: 54px;
@@ -1518,7 +1534,7 @@ ul#tabs-nav a:hover{
     }
     .frame15{
         padding: 5px 12px 5px 12px;
-
+        margin-left: -56px;
     }
     .frame53Heading{
         font-size: 32px;
@@ -1539,10 +1555,18 @@ ul#tabs-nav a:hover{
         padding: 5px 13px 5px 13px;
     }   
     .ellipse{
-        margin-top: -9%;
+        margin-top: -33%;
+        width: 75px;
+        height: 75px;
+        margin-left: 0px;
+    }
+    .ellipsePng{
+        width: 30px;
+        height: 30px;
+
     }
     .png{
-        height: 16px;
+        height: 19px;
         margin-right: 5px;
 
     }
@@ -1558,11 +1582,14 @@ ul#tabs-nav a:hover{
         display: block;
     }
     .frame66Text{
-        line-height: 20px;
+        line-height: 18px;
         font-size: 12px;
     }
     .getInTouchForm{
         max-width: 100%;
+    }
+    section{
+        margin-top: 25px;
     }
     .mailSendLine{
         width: 34px;
@@ -1608,8 +1635,11 @@ ul#tabs-nav a:hover{
         line-height: 16px;
     }
     .frame15Heading{
-        font-size: 24px;
+        font-size: 19px;
         line-height: 26.8px;
+    }
+    .frame112{
+        display: grid;
     }
     .frame108{
         font-size: 20px;
@@ -1624,6 +1654,7 @@ ul#tabs-nav a:hover{
     }
     .frame145{
         padding-bottom: 100px;
+        padding-left: 50px;
     }
     .frame109Anchor{
         font-size: 14px;
@@ -1631,11 +1662,21 @@ ul#tabs-nav a:hover{
         padding: 3px 20px 6px 20px;
     }
     .frame112Img{
-        width: 150px;
+        width: 185px;
+        justify-self: center;
+        max-width: 100%;
     }
     .frame112TextDiv{
+        display: grid;
+        justify-self: center;
+        max-width: 100%;
         width: 40ch;
-        margin-left: 34px;
+        margin-left: -15px;
+    }
+    .frame112Text{
+        align-self: center;
+        justify-self: center;
+        font-size: 14px;
     }
     .frame111{
         margin-top: 60px;
@@ -1643,7 +1684,7 @@ ul#tabs-nav a:hover{
     .frame111Anchor{
         font-size: 12px;
         line-height: 20.6px;
-        margin-right: 16px;
+        margin-right: 5px;
     }
     .frame113{
         margin-top: 18px;
@@ -1651,24 +1692,270 @@ ul#tabs-nav a:hover{
         padding-bottom: 22px;
     }
     .frame113Text{
-        font-size: 12px;
+        font-size: 10px;
         line-height: 24px;
     }
     .frame113Bold{
         font-size: 14px;
         line-height: 22px;
     }
+    .anchorList{
+        gap: 5px;
+        text-align: center;
+    }
+    .tab-content{
+        gap: 30px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+    }
     #tabs-content{
-        display: none;
+        display: flex;
+        justify-content: center;
     }
     #centerAlignText{
         margin-left: 26px;
     }
     #frame3JoinNow{
-        margin-left: 26px
-        ;
+        margin-left: 26px;
     }
     .exploreJobImg{
         margin-top: 0px;
+    }
+    .coloredSection{
+        padding: 24px 15px 24px 15px;
+    }
+    #largeDevice{
+        display: none;
+    }
+    #smallDevice{
+        display: inherit;
+    }
+    #imgCntnr1{
+        margin-bottom: 20px;
+    }
+    #oddRectangle{
+        margin-bottom: 47px;
+
+    }
+    #overlayText{
+        max-width: 100%;
+        width: 48ch;
+    }
+    #grayPng{
+        margin-top: 5px;
+    }
+    #jobsB{
+        margin-left: 0px;
+    }
+    .rectangle18{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 47px;
+    }
+    .dropdown-menu{
+        background-color: #0e2f53;
+    }
+    .rectangle22Text{
+        color: hsl(0, 0%, 7%);
+        font-size: 9px;
+        margin-top: 15px;
+        line-height: 15.8px;
+    }
+    .group65Text{
+        line-height: 19.2px;
+        font-size: 18px;
+    }
+    .tab-anchor{
+        display: block;
+        width: 130px;
+        padding: 2px 5px;
+        font-size: 14px;
+        line-height: 24.2px;
+    }
+    .frame66Heading{
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .frame96AccordionHeading{
+        font-size: 15px;
+    }
+    .rectangle18Heading{
+        margin-top: 25px;
+
+    }
+    .header {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+        box-shadow: none;
+        overflow: hidden;
+        z-index: 10;
+    }
+
+    .main {
+        margin: 0 auto;
+        display: block;
+        height: 100%;
+        margin-top: 60px;
+    }
+
+    .mainInner {
+        display: table;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .mainInner div {
+        display: table-cell;
+        vertical-align: middle;
+        font-size: 3em;
+        font-weight: bold;
+        letter-spacing: 1.25px;
+    }
+    #placementData{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    #sidebarMenu {
+        height: 100%;
+        position: absolute;
+        right: 0;
+        width: 250px;
+        margin-top: 60px;
+        transform: translateX(300px);
+        transition: transform 250ms ease-in-out;
+    }
+
+    .sidebarMenuInner {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    .sidebarMenuInner li {
+        list-style: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .sidebarMenuInner li span {
+        display: block;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.50);
+    }
+    #disabled{
+        color: black;
+        opacity: 0.4;
+    }
+    /*.sidebarMenuInner li a {
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }*/
+
+    input[type="checkbox"]:checked~#sidebarMenu {
+        transform: translateX(-8px);
+    }
+
+    input[type=checkbox] {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        display: none;
+    }
+
+    .sidebarIconToggle {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        cursor: pointer;
+        position: absolute;
+        z-index: 99;
+        top: 22px;
+        right: 15px;
+        height: 22px;
+        width: 22px;
+    }
+
+    .spinner {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .horizontal {
+        background-color: #1B90DD;
+        transition: all 0.3s;
+        box-sizing: border-box;
+        position: relative;
+        float: left;
+        margin-top: 3px;
+    }
+
+    .diagonal.part-1 {
+        background-color: #1B90DD;
+        position: relative;
+        transition: all 0.3s;
+        box-sizing: border-box;
+        float: left;
+    }
+
+    .diagonal.part-2 {
+        background-color: #1B90DD;
+        transition: all 0.3s;
+        box-sizing: border-box;
+        position: relative;
+        float: left;
+        margin-top: 3px;
+    }
+
+    input[type=checkbox]:checked~.sidebarIconToggle>.horizontal {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        opacity: 0;
+    }
+
+    input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-1 {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        transform: rotate(135deg);
+        margin-top: 8px;
+    }
+
+    input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        transform: rotate(-135deg);
+        margin-top: -9px;
+    }
+    /*
+    .sidebarMenuInner li a:active{
+        color: #1B90DD;
+    }
+    .sidebarMenuInner li a:hover{
+        color: #1B90DD;
+    }
+    .sidebarMenuInner li a:focus{
+        color: #1B90DD;
+    }
+    .joinNowAnchor a:focus{
+        color: white;
+    }
+    .joinNowAnchor a:active{
+        color: white;
+    }*/
+
+    .websiteIcon{
+        margin-top: 9px;
+        margin-left: 12px;
+        max-width: 80%;
     }
 }
